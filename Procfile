@@ -1,1 +1,2 @@
-web: waitress-serve --port=$PORT recordingtwilio.wsgi:application
+web: python server.py
+
